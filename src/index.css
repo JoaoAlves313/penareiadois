@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-arena-bg: #0a0a0a;
+  --color-arena-beige: #d4c3a3;
+  --color-arena-beige-dark: #bba785;
+  --color-arena-card: #141414;
+  --color-arena-card-hover: #1f1f1f;
+  --color-arena-green: #25D366;
+  --color-arena-green-hover: #1ebd5a;
+}
+
+@layer base {
+  body {
+    @apply bg-arena-bg text-white font-sans antialiased;
+  }
+}
